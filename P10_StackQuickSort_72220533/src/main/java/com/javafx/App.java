@@ -50,6 +50,7 @@ public class App extends Application {
         hb1.getChildren().addAll(lblInt,txtInt,btnAdd);
         txtInt.setMaxWidth(50);
         HBox.setHgrow(reg, Priority.ALWAYS);
+        txtArea.setMinHeight(300);
         hb2.getChildren().addAll(lblIsiArray, txtIsiArray, btnQuickSort);
         hb3.getChildren().addAll(txtArea);
         hb4.getChildren().addAll(reg,btnClose);
